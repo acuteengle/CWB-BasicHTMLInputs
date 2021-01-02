@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inputs</title>
+    </head>
+    <body>
+        <h1>Text Inputs</h1>
+
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="myName">
+
+        <br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="myPassword">
+
+        <br><br>
+
+        <label for="description">Description:</label>
+        <textarea name="description" id="myDescription"></textarea>
+
+        <br><br>
+
+        <label for="myNumber">Age: </label>
+        <input type="number" name="myNumber" id="myAge">
+
+        <hr>
+
+        <h1>Date/Time Inputs</h1>
+
+        <label for="myDate">Date: </label>
+        <input type="date" name="myDate" id="birthdate">
+
+        <br><br>
+
+        <label for="myTime">Time: </label>
+        <input type="time" name="myTime" id="meetingTime">
+
+        <hr>
+
+        <h1>Select Input</h1>
+
+        <label for="cars">Car: </label>
+        <select id="car" name="cars">
+            <option value="hyundai">Hyundai</option>
+            <option value="ford">Ford</option>
+            <option value="toyota">Toyota</option>
+        </select>
+
+        <hr>
+
+        <h1>Checkbox/Radio Inputs</h1>
+
+        <label for="male">male</label>
+        <input type="checkbox" name="male" id="male">
+        <label for="female">female</label>
+        <input type="checkbox" name="female" id="female">
+
+        <br><br>
+
+        <label>red</label>
+        <input type="radio" name="color" id="red">
+        <label>blue</label>
+        <input type="radio" name="color" id="blue">
+        <label>green</label>
+        <input type="radio" name="color" id="green">
+
+        <hr>
+
+        <button id="submitButton">Get Values</button>
+
+        <p id="result"></p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
